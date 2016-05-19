@@ -99,17 +99,17 @@ float:left;
 width:162px;
 height:45px;
 background-color:#2626ED;
-margin-left:-22px;
+margin-left:2px;
 }
 .navlest{
 float:left;
 width:262px;
 height:145px;
 background-color:#eee424;
-margin-left:-22px;
-padding-top:45px;
-display:none;
-z-index:-10;
+margin-left:2px;
+padding-top:2px;
+/*display:none;
+z-index:-10;*/
 }
 li.oji a{
 display: inline-block;
