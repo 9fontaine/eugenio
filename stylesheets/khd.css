@@ -2,6 +2,7 @@
 stylesheets from personal site
 
 */
+body{width:1456px;}
 .popup_block{
 	display: none; /*--masqué par défaut--*/
 	background: #EEE;
@@ -116,7 +117,7 @@ color:#221;
 width:160px;
 height:45px;
 padding-left:-22px;
-
+background-color:#434343;
 }
 
 li.oji a :hover{
