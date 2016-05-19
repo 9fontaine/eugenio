@@ -1,18 +1,19 @@
 $(document).ready(function(){
+ 
 /*$(".oji").click(function(){
  var offset = $( this ).offset();
   event.stopPropagation();
   $( "#result" ).text( this.tagName +
-    " coords ( " + offset.left + ", " + offset.top + " )" );*/
+    " coords ( " + offset.left + ", " + offset.top + " )" );
 
 
-});
+});*/
+/*---------------------------------------*/
 
 
-
-  var imgs = ["IMG_20150413_212008.jpg",
-            "IMG_20150413_212008.jpg",
-            "IMG_20150413_212008.jpg"]
+  var imgs = ["https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Cond%C3%A9SurRisle_%C3%A9glise.jpg/280px-Cond%C3%A9SurRisle_%C3%A9glise.jpg",
+            "http://static.panoramio.com/photos/original/87076700.jpg",
+            "http://imgs.nestimg.com/maison_in_vente_la_ferriere_sur_risle_1560035447819961779.jpg"]
     var cnt = imgs.length;
 
     $(function() {
