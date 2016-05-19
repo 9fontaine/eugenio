@@ -138,13 +138,13 @@ padding-left:2px;
 background-color:#FFF666;
 float:left;
 margin-top:2px;
-display: none;
+/*display: none;*/
 position: relative;
 background-color: #e729ee;
   color: #034700;
   border: 12px solid #1a1a1a;
   font-size: 90%;
-  z-index:1000;
+  z-index:10;
 }
 
 #bloghead{
