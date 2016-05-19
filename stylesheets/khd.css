@@ -2,7 +2,7 @@
 stylesheets from personal site
 
 */
-body{width:1352px;}
+body{width:1347px;}
 .popup_block{
 	display: none; /*--masqué par défaut--*/
 	background: #EEE;
@@ -142,7 +142,7 @@ width:324px;
 }
 
 #bloghead{
-width:1380px;
+width:1347px;
 height:154px;
 padding-left:0px;
 margin-left:-190px;
