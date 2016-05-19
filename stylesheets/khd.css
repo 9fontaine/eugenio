@@ -151,12 +151,12 @@ display: none;
 width:1332px;
 height:154px;
 padding-left:0px;
-margin-left:-190px;
+margin-left:-1px;
 padding-right:0px;
 margin-right:0px;
 padding-top:-20px;
 margin-top:-18px;
-border:12px solid #787878;
+border-bottom:12px solid #7878EF;
 }
 .blogleft{float:left;
 border-right:1px solid #24531E;
