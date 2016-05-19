@@ -135,12 +135,11 @@ height:44px;
 margin-left:2px;
 padding-left:2px;
 background-color:#FFF666;
-float:left;
+/*float:left;*/
 margin-top:2px;
 display: none;
   /*position: relative;*/
-  width: 280px;
-  padding: 10px;
+
   background: #e729ee;
   color: #034700;
   border: 1px solid #1a1a1a;
