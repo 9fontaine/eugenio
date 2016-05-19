@@ -132,13 +132,13 @@ width:324px;
 
 #arial{width:1325px;
 height:44px;
-margin-left:229px;
+margin-left:29px;
 padding-left:23px;
 background-color:#FFF666;
 float:left;
 margin-top:-42px;
 display: none;
-  position: absolute;
+  position: relative;
   width: 280px;
   padding: 10px;
   background: #e729ee;
