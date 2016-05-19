@@ -130,19 +130,19 @@ width:324px;
 
 
 
-#arial{width:1325px;
+#arial{
+width:1325px;
 height:44px;
 margin-left:2px;
 padding-left:2px;
 background-color:#FFF666;
-/*float:left;*/
+float:left;
 margin-top:2px;
 display: none;
-  /*position: relative;*/
-
-  background: #e729ee;
+position: relative;
+background-color: #e729ee;
   color: #034700;
-  border: 1px solid #1a1a1a;
+  border: 12px solid #1a1a1a;
   font-size: 90%;
 }
 
@@ -153,8 +153,8 @@ padding-left:0px;
 margin-left:-1px;
 padding-right:0px;
 margin-right:0px;
-padding-top:-20px;
-margin-top:-18px;
+padding-top:-2px;
+margin-top:-1px;
 border-bottom:12px solid #7878EF;
 }
 .blogleft{float:left;
