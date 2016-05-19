@@ -144,6 +144,7 @@ background-color: #e729ee;
   color: #034700;
   border: 12px solid #1a1a1a;
   font-size: 90%;
+  z-index:1000;
 }
 
 #bloghead{
