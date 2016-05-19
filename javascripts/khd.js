@@ -1,4 +1,3 @@
-<script>
 $(document).ready(function(){
 /*$(".oji").click(function(){
  var offset = $( this ).offset();
@@ -110,4 +109,3 @@ $(".huko").show("slow");
     });
 
 });
-</script>
