@@ -161,18 +161,18 @@ border-bottom:12px solid #787878;
 .blogleft{float:left;
 border-right:1px solid #24531E;
 margin-left:0px;
-width:312px;
+width:310px;
 height:154px;
 background-image: url("http://imgs.nestimg.com/maison_in_vente_la_ferriere_sur_risle_1560035447819961779.jpg");
 }
 .blogcenter{float:left;
 background-image: url("https://www.creativefreedom.co.uk/wp-content/uploads/2011/11/open_2561.png");
-width:620px;
+width:619px;
 height:154px;
 }
 .blogright{float:right;
-border-left:62px outset #24531E;
-width:400px;
+border-left:162px outset #24531E;
+width:399px;
 height:154px;
 background-image: url("http://imgs.nestimg.com/maison_in_vente_la_ferriere_sur_risle_1560035447819961779.jpg");
 background-position: 250px 400px;
