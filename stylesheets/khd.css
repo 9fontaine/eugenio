@@ -16,7 +16,7 @@ body{width:1332px;}
 width:345px;
 height:218px;
 }
-
+/*
 a:link {
     text-decoration: none;
 }
@@ -32,6 +32,7 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
+*/
 img.btn_close {
 	float: right;
 	margin: 95px -75px 110 0;
