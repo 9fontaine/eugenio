@@ -93,5 +93,22 @@ cache
 <img src=""  class="btn_close"/>
 	<a href="">lastform</a>
 </div>
+<script>
+$(document).ready(function(){
+	$(".huko").mouseover(function(){
+$(".huko").show("slow");
+       $(".huko2").show("slow");
+    });
+    $(".huko2").mouseout(function(){
+        $(".huko2").hide("slow");
+    });
+ $(".huko").on(function(e) {
+        e.preventDefault();
+        window.open($(this).attr('href'), '.popup_block');
+    });
+  $("button").click(function(){
+        $("#w3s").attr("href", "http://www.w3schools.com/jquery");
+    });
 
+});
 </body>
