@@ -3,7 +3,7 @@
 <charset ="utf-08"/>    
 <link rel="stylesheet" href="http://9fontaine.github.io/eugenio/stylesheets/khd.css">
 <script src="http://9fontaine.github.io/eugenio/javascripts/khd.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+<script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
 </head>
 <body>
 <div id="bloghead">
@@ -95,20 +95,7 @@ cache
 </div>
 <script>
 $(document).ready(function(){
-	$(".huko").mouseover(function(){
-$(".huko").show("slow");
-       $(".huko2").show("slow");
-    });
-    $(".huko2").mouseout(function(){
-        $(".huko2").hide("slow");
-    });
- $(".huko").on(function(e) {
-        e.preventDefault();
-        window.open($(this).attr('href'), '.popup_block');
-    });
-  $("button").click(function(){
-        $("#w3s").attr("href", "http://www.w3schools.com/jquery");
-    });
-
+var JQuery_estPresent = (typeof jQuery != "undefined")?true:false;
+alert(JQuery_estPresent);
 });
 </body>
