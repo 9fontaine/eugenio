@@ -1,19 +1,27 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
+<script>
 $(document).ready(function(){
- 
+if($.browser.chrome) {
+   alert("1");
+} else if ($.browser.mozilla) {
+   alert("2");
+} else if ($.browser.msie) {
+   alert("3");
+}
 /*$(".oji").click(function(){
  var offset = $( this ).offset();
   event.stopPropagation();
   $( "#result" ).text( this.tagName +
-    " coords ( " + offset.left + ", " + offset.top + " )" );
+    " coords ( " + offset.left + ", " + offset.top + " )" );*/
 
 
-});*/
-/*---------------------------------------*/
+});
 
 
-  var imgs = ["https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Cond%C3%A9SurRisle_%C3%A9glise.jpg/280px-Cond%C3%A9SurRisle_%C3%A9glise.jpg",
-            "http://static.panoramio.com/photos/original/87076700.jpg",
-            "http://imgs.nestimg.com/maison_in_vente_la_ferriere_sur_risle_1560035447819961779.jpg"]
+/*--------------------*/
+  var imgs = ["http://www.easyjet.com/en/holidays/shared/images/guides/poland/krakow/krakow-city.jpg",
+            "http://wallpapersgalery.com/wp-content/uploads/2015/06/free-nature-wallpaper-downloads.jpg",
+            "http://www.justacote.com/photos_entreprises/barrage-vauban-strasbourg-1357767426.jpg"]
     var cnt = imgs.length;
 
     $(function() {
@@ -24,89 +32,100 @@ $(document).ready(function(){
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
     });
-    
-
+    }
+/*---------------------------------*/
 $(".btn_close").click(function(){
 $(".popup_block").hide();
 $(".oji").css({"background-color": "#49498e"});
-$(".oji a").css({"color": "#fff"});
-  });
+$(".oji a").css({"color": "#EEE"});
+});
+ /*------------------------------*/
+/*c'etait carform here
+/*-------------------------------*/
 
     $(".oji").mouseover(function(){
-
-if($(this).css('display') == 'show')
-{
-
-//completer
-}
-$(this).css({"background-color": "white"});
+$(".popup_block").hide (); 
 var link_name = "#" + $(this).attr("name");
-$(".oji a").css({"color": "#221"});
-  $(link_name).show ().css({"background-color": "#49498e;"}); 
+
+
+$(link_name).show (); 
+$(link_name).mouseenter(function() { }).mouseleave(function() {
+$(link_name).hide (); 
+});
+}, function() {
+alert("display out");
+$( link_name ).css({"display": "none"});
+    $( link_name ).hide();
+
+//.css({"background-color": "#555;"});
+
+//$(link_name).css('display') == 'show';
+
+//$(this).css({"background-color": "orange"});
+//var link_name = "#" + $(this).attr("name");
+// $("p").toggle();
+// $("#p1").mouseleave(function(){
+//$(".oji a").css({"color": "#221"}); 
 
    
     });
-/*break   first*/
-    $("this").mouseout(function(){
-$(".oji").css({"background-color": "white"});
 
-         //$(".popup_block").hide();  
+    $(liTTTnk_name).mouseout(function(){
+//$(".oji").css({"background-color": "red"});
+
+         $( link_name ).hide(2000);  
     });
 
-$(".oji").css({"background-color": "#49498e"});
-$(".oji a").css({"color": "#fff"});
+
+//$(".oji").css({"background-color": "#49498e"});
+//$(".oji a").css({"color": "red"});
+
+/*-----------------------------------*/
+
+
+//Lorsque vous cliquez sur un lien de la classe poplight et que le href commence par #
+$('a.poplight[href^=#]').click(function() {
+	var popID = $(this).attr('rel'); //Trouver la pop-up correspondante
+	var popURL = $(this).attr('href'); //Retrouver la largeur dans le href
+
+	//Récupérer les variables depuis le lien
+	var query= popURL.split('?');
+	var dim= query[1].split('&amp;');
+	var popWidth = dim[0].split('=')[1]; //La première valeur du lien
+
+	//Faire apparaitre la pop-up et ajouter le bouton de fermeture
+	$('#' + popID).fadeIn().css({
+		'width': Number(popWidth)
+	})
+	.prepend('<a href="#" class="close"><img src="close_pop.png" class="btn_hun" title="Fermer" alt="Fermer" /></a>');
+
+	//Récupération du margin, qui permettra de centrer la fenêtre - on ajuste de 80px en conformité avec le CSS
+	var popMargTop = ($('#' + popID).height() + 80) / 2;
+	var popMargLeft = ($('#' + popID).width() + 80) / 2;
+
+	//On affecte le margin
+	$('#' + popID).css({
+		'margin-top' : -popMargTop,
+		'margin-left' : -popMargLeft
+	});
+
+	//Effet fade-in du fond opaque
+	$('body').append('<div id="fade"></div>'); //Ajout du fond opaque noir
+	//Apparition du fond - .css({'filter' : 'alpha(opacity=80)'}) pour corriger les bogues de IE
+	$('#fade').css({'filter' : 'alpha(opacity=80)'}).fadeIn();
+
+	return false;
+});
+
+//Fermeture de la pop-up et du fond
+$('a.close, #fade').live('click', function() { //Au clic sur le bouton ou sur le calque...
+	$('#fade , .popup_medium').fadeOut(function() {
+		$('#fade, a.close').remove();  //...ils disparaissent ensemble
+	});
+	return false;
+
+/*------------------------------------------------------*/
+
 });
 
 
-    $(".huko").mouseover(function(){
-$(".huko").show("slow");
-       $(".huko2").show("slow");
-    });
-    $(".huko2").mouseout(function(){
-        $(".huko2").hide("slow");
-    });
- $(".huko").on(function(e) {
-        e.preventDefault();
-        window.open($(this).attr('href'), '.popup_block');
-    });
-  $("button").click(function(){
-        $("#w3s").attr("href", "http://www.w3schools.com/jquery");
-    });
-
-
-
-
-    $(".huko").mouseover(function(){
-$(".huko").show("slow");
-       $(".huko2").show("slow");
-    });
-    $(".huko2").mouseout(function(){
-        $(".huko2").hide("slow");
-    });
- $(".huko").on(function(e) {
-        e.preventDefault();
-        window.open($(this).attr('href'), '.popup_block');
-    });
-  $("button").click(function(){
-        $("#w3s").attr("href", "http://www.w3schools.com/jquery");
-    });
-
-
-
-
-    $(".huko").mouseover(function(){
-$(".huko").show("slow");
-       $(".huko2").show("slow");
-    });
-    $(".huko2").mouseout(function(){
-        $(".huko2").hide("slow");
-    });
- $(".huko").on(function(e) {
-        e.preventDefault();
-        window.open($(this).attr('href'), '.popup_block');
-    });
-  $("button").click(function(){
-        $("#w3s").attr("href", "http://www.w3schools.com/jquery");
-    });
-
-});
