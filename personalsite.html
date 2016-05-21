@@ -94,77 +94,94 @@ cache
 	<a href="">lastform</a>
 </div>
 <style>
-body{width:1332px;}
-.popup_block{
-	display: none; /*--masqué par défaut--*/
-	background: #EEE;
-	padding: 20px;
-	float: left;
-	font-size: 1.2em;
-	position: fixed;
-	top: 179px; 
-	z-index: 99999;
-        color:#252;
-width:345px;
-height:218px;
-}
-/*
-a:link {
-    text-decoration: none;
-}
-a:visited {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-a:active {
-    text-decoration: underline;
-}
-*/
-img.btn_close {
-	float: right;
-	margin: 95px -75px 110 0;
-width:126px;
-}
-
-*html .popup_block {
-position: absolute;
+/*body{position:fixed;width:100%;}*/
+body{margin-top:0px;}
+#bloghead{
+width:1226px;
+height:154px;
+padding-left:0px;
+margin-left:-190px;
+padding-right:0px;
+margin-right:0px;
+padding-top:-20px;
+margin-top:-180px;
+border-bottom:12px solid #787878;
 
 }
-
-.huko{
-width:265px;
-height:62px;
-background-color:#13426E;
-font-family:arial;
-font-size:28px;
-color:#ccc111;
-padding-left:12px;
-padding-top:12px;
-	
+.blogleft{float:left;
+border-right:1px solid #24531E;
+margin-left:0px;
+width:312px;
+height:154px;
+background-image: url("https://upload.wikimedia.org/wikipedia/en/0/00/Asisgov.png");
 }
-.huko :hover{
-width:265px;
-height:2px;
-background-color:#FEF;
-cursor:pointer;
+.blogcenter{float:left;
+background-image: url("http://cdaes.com/sites/default/files/Bell%20Helicopter_sized.jpg");
+width:620px;
+height:154px;
 }
-.huko2 {
-width:342px;
-height:32px;
+.blogright{float:right;
+border-left:1px outset #24531E;
+width:320px;
+height:154px;
+margin-right:-29px;
+background-image: url("http://cdaes.com/sites/default/files/Bell%20Helicopter_sized.jpg");
+background-position: 250px 400px;
+}
+.pass{
+padding-left:24px;
+padding-top:34px;
+}
+/*---------------------------*/
+li.oji{
 float:left;
-background-color:#FEF;
+width:162px;
+height:45px;
+
+margin-left:-22px;
+}
+.navlest{
+float:left;
+width:262px;
+height:145px;
+background-color:#eee;
+margin-left:-22px;
+padding-top:45px;
 display:none;
-font-family:arial;
-font-size:28px;
-color:#ccc111;
-padding-left:12px;
-padding-top:12px;
-margin-top:60px;
-z-index:10;
+z-index:-10;
+}
+li.oji a{
+display: inline-block;
+color:#221;
+width:160px;
+height:45px;
+padding-left:-22px;
+background-color:#49498e;//bleue
 }
 
+li.oji a :hover{
+color:#FEF;
+background-color:#31E;
+height:145px;
+width:324px;
+
+}
+
+
+
+#arial{width:1
+325px;height:44px;margin-left:29px;padding-left:23px;background-color:#FFF;float:left;margin-top:-42px;}
+/*  display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background: #eeeeee;
+  color: #000000;
+  border: 1px solid #1a1a1a;
+  font-size: 90%;
+}*/
+/*-------------------------------------------*/
+.carform{border:2px inset red;width:745px;height:28px;color:red;}
 #imageSlide{
 width:683px;
 height:283px;
@@ -186,19 +203,14 @@ background-color:#626871;
 color:#FFF;
 font-size:18px;
 float:left;
-margin-top:-2px;
-}
-.commentaires{color:#FFF;padding-left:21px;
-}
-.herb{
-border:2px inset #287;
-}
+margin-top:-2px;}
+.commentaires{color:#FFF;padding-left:21px;}
+.herb{border:2px inset #287;}
 
-#shortimg{
-cursor:pointer;
-}
+#shortimg{cursor:pointer;}
 
 .imagejhjh imgjhjh {
+
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -208,95 +220,19 @@ cursor:pointer;
 .imagepopo img.transparent {
 opacity:0;
 }
-.image01{background-image:url("https://www.creativefreedom.co.uk/wp-content/uploads/2011/11/open_2561.png");
+.image01{background-image:url("http://wallpapersgalery.com/wp-content/uploads/2015/06/free-nature-wallpaper-downloads.jpg");
 width:683px; 
 height:283px;}
-.image02{background-image:url("http://imgs.nestimg.com/maison_in_vente_la_ferriere_sur_risle_1560035447819961779.jpg");}
+.image02{background-image:url("http://www.easyjet.com/en/holidays/shared/images/guides/poland/krakow/krakow-city.jpg");}
 .navselect{
 width:243px;height:145px;background-color:#806273;}
 }
 .highlight{background:yellow;}
-
-li.oji{
-float:left;
-width:162px;
-height:45px;
-background-color:#e426ED;
-margin-left:2px;
-background-color:#CCC111;
-}
-.navlest{
-float:left;
-width:262px;
-height:145px;
-background-color:#eee424;
-margin-left:2px;
-padding-top:2px;
-display:none;
-}
-li.oji a{
-display: inline-block;
-color:#221;
-width:160px;
-height:45px;
-padding-left:-22px;
-background-color:#4343ED;
-}
-
-li.oji a :hover{
-color:#2ed6EF;
-background-color:#7ef184;
-height:145px;
-width:324px;
-font-size:2.3px;
-}
-
-
-
-#arial{
-width:1325px;
-height:44px;
-margin-left:2px;
-padding-left:2px;
-background-color:#FFF666;
-float:left;
-margin-top:2px;
-}
-
-#bloghead{
-width:1332px;
-height:154px;
-padding-left:0px;
-margin-left:-1px;
-padding-right:0px;
-margin-right:0px;
-padding-top:-2px;
-margin-top:-1px;
-border-bottom:12px solid #7878EF;
-}
-.blogleft{float:left;
-border-right:1px solid #24531E;
-margin-left:0px;
-width:310px;
-height:154px;
-background-image: url("http://imgs.nestimg.com/maison_in_vente_la_ferriere_sur_risle_1560035447819961779.jpg");
-}
-.blogcenter{float:left;
-background-image: url("https://www.creativefreedom.co.uk/wp-content/uploads/2011/11/open_2561.png");
-width:619px;
-height:154px;
-}
-.blogright{float:right;
-border-left:2px outset #24531E;
-width:399px;
-height:154px;
-background-image: url("http://imgs.nestimg.com/maison_in_vente_la_ferriere_sur_risle_1560035447819961779.jpg");
-background-position: 250px 400px;
-}
-.pass{
-padding-left:24px;
-padding-top:34px;
-}
+/*----------------------------------------------*/
+#kode{display:none;}
+.poltin{width:826px;height:0.22em;background-color:#EF3792;border-bottom:3px outset #e54;}
+.poltini{width:426px;height:0.22em;background-color:#37EF92;border-bottom:3px outset #e54;float:left;margin-top;-42px;}
+/*----------------------------------------------------------------------*/
 #EEfade { /*--Masque opaque noir de fond--*/
 	display: none; /*--masqué par défaut--*/
 	background: #000;
@@ -347,7 +283,7 @@ height:300px;
 	border-radius: 10px;
 }
 .streighthombre{background-color:#672Def;border:2px inset #898989;width:504px;color:grey;font-size:1.4em;}
-/*a:link {
+a:link {
     text-decoration: none;
 }
 
@@ -361,7 +297,7 @@ a:hover {
 
 a:active {
     text-decoration: underline;
-}*/
+}
 img.btn_close {
 	float: right;
 	margin: 125px -5px 10 0;
@@ -383,6 +319,8 @@ position: absolute;
 
 }
 .poltini{background-color:#EE3388;width:508px;}
+/*---------------------------------------*/
+
 </style>
 <script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
