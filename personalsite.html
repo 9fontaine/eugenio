@@ -395,7 +395,7 @@ position: absolute;
 $(document).ready(function(){
 var imgs = ["http://www.easyjet.com/en/holidays/shared/images/guides/poland/krakow/krakow-city.jpg",
             "http://wallpapersgalery.com/wp-content/uploads/2015/06/free-nature-wallpaper-downloads.jpg",
-            "http://www.justacote.com/photos_entreprises/barrage-vauban-strasbourg-1357767426.jpg"];
+            "http://www.justacote.com/photos_entreprises/barrage-vauban-strasbourg-1357767426.jpg"]
 var cnt = imgs.length;
 
 $(function() {
@@ -406,13 +406,13 @@ $(function() {
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
     });
-    }
+    };
 /*---------------------------------*/
-function myFunction() {
+/*function myFunction() {
     document.getElementById("demo").innerHTML = 
     "Name is " + navigator.appName +
     "<br>Code name is " + navigator.appCodeName;
-}
+}*/
 function breakoutwinmenu(){
 alert("breakoutwinmenu ok");
 $(".popup_block").hide (); 
@@ -452,7 +452,7 @@ $(function() {
     $('div#pop-up').show();
   }, function() {
     $('div#pop-up').hide();
-  });
+  };
 });
 
 
