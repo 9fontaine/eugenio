@@ -52,16 +52,11 @@
 </p>
 </div>
 <hr />
-<div style="width:62px;height:154px;background-color:white;">
-	<ul>
-		<li class="huko">first win</li>
-		</ul>
-		<ul>
+<div style="width:62px;height:154px;background-color:white;"><ul><li class="huko">first win</li></ul><ul>
 <li class="huko2">
 cache
 
-</li>
-</ul>
+</li></ul>
 </div>
 <div style="font-size:24px">
 <a href="http://www.indeed.fr/" style="color:#267392">indeed.fr</a><br />
@@ -251,21 +246,8 @@ width:243px;height:145px;background-color:#806273;}
 .highlight{background:yellow;}
 /*----------------------------------------------*/
 #kode{display:none;}
-.poltin{
-	width:826px;
-	height:0.22em;
-	background-color:#EF3792;
-	border-bottom:3px outset #e54;
-	
-}
-.poltini{width:426px;
-height:0.22em;
-border-bottom:3px outset #e54;
-float:left;
-margin-top;-42px;
-background-color:#EE3388;
-	
-}
+.poltin{width:826px;height:0.22em;background-color:#EF3792;border-bottom:3px outset #e54;}
+.poltini{width:426px;height:0.22em;background-color:#37EF92;border-bottom:3px outset #e54;float:left;margin-top;-42px;}
 /*----------------------------------------------------------------------*/
 #EEfade { /*--Masque opaque noir de fond--*/
 	display: none; /*--masqué par défaut--*/
@@ -316,13 +298,7 @@ height:300px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 }
-.streighthombre{
-	background-color:#672Def;
-	border:2px inset #898989;
-	width:504px;color:grey;
-	font-size:1.4em;
-	
-}
+.streighthombre{background-color:#672Def;border:2px inset #898989;width:504px;color:grey;font-size:1.4em;}
 
 img.btn_close {
 	float: right;
@@ -344,19 +320,19 @@ width:106px;
 position: absolute;
 
 }
-
+.poltini{background-color:#EE3388;width:508px;}
 /*---------------------------------------*/
 
 </style>
 </body>
 <script>
 $(document).ready(function(){
-  var imgs = ["http://www.easyjet.com/en/holidays/shared/images/guides/poland/krakow/krakow-city.jpg",
+var imgs = ["http://www.easyjet.com/en/holidays/shared/images/guides/poland/krakow/krakow-city.jpg",
             "http://wallpapersgalery.com/wp-content/uploads/2015/06/free-nature-wallpaper-downloads.jpg",
-            "http://www.justacote.com/photos_entreprises/barrage-vauban-strasbourg-1357767426.jpg"]
-    var cnt = imgs.length;
+            "http://www.justacote.com/photos_entreprises/barrage-vauban-strasbourg-1357767426.jpg"];
+var cnt = imgs.length;
 
-    $(function() {
+$(function() {
         setInterval(Slider, 5000);
     });
 
@@ -366,20 +342,16 @@ $(document).ready(function(){
     });
     }
 /*---------------------------------*/
-  var imgs = ["http://www.easyjet.com/en/holidays/shared/images/guides/poland/krakow/krakow-city.jpg",
-            "http://wallpapersgalery.com/wp-content/uploads/2015/06/free-nature-wallpaper-downloads.jpg",
-            "http://www.justacote.com/photos_entreprises/barrage-vauban-strasbourg-1357767426.jpg"]
-    var cnt = imgs.length;
+function myFunction() {
+    document.getElementById("demo").innerHTML = 
+    "Name is " + navigator.appName +
+    "<br>Code name is " + navigator.appCodeName;
+}
+function breakoutwinmenu(){
 
-    $(function() {
-        setInterval(Slider, 5000);
-    });
+$(".popup_block").hide (); 
+}
 
-    function Slider() {
-    $("#imageSlide").show("fast", function() {
-       $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
-    });
-    }
 /*---------------------------------*/
 $(".btn_close").click(function(){
 $(".popup_block").hide();
@@ -404,10 +376,10 @@ $( link_name ).css({"display": "none"});
 
     });*/
 
-    $(liTTTnk_name).mouseout(function(){
+  /*  $(liTTTnk_name).mouseout(function(){
 
          $( link_name ).hide(2000);  
-    });
+    });*/
 /*---------------*/
 $(function() {
   $('a#trigger').hover(function() {
