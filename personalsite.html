@@ -454,14 +454,14 @@ $(".oji a").css({"color": "#EEE"});
 
 
     $(".oji").mouseover(function(){
-$(".popup_block").hide (); 
+$(".popup_block").show (); 
 var link_name = "#" + $(this).attr("name");
 
 
 $(link_name).show (); 
-$(link_name).mouseenter(function() { }).mouseleave(function() {
+/*$(link_name).mouseenter(function() { }).mouseleave(function() {
 $(link_name).hide (); 
-});/*
+});
 }, function() {
 alert("display out");
 $( link_name ).css({"display": "none"});
