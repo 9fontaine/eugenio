@@ -5,7 +5,21 @@
 <link rel="stylesheet" href="http://9fontaine.github.io/eugenio/stylesheets/main.css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
+<script language="javascript">
+    $(document).ready(function()
+    { 
+        $('#javascriptKo').hide();
+        $('#javascriptOk').show();
+    });
+</script>
 
+Dans le <body>, les divs :
+<div id="javascriptKo" style="display:block: font-weight:bold; color:#ff0000; font-size:15px;">
+    ATTENTION : le Javascript n'est pas activé sur votre navigateur.
+</div>
+<div id="javascriptOk" style="display:none">
+    javascript est activé
+</div>
 </head>
 <body>
 <div id="bloghead">
