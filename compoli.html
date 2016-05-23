@@ -19,7 +19,11 @@
  <script>
  jQuery(document).ready(function(){
     /*$(".colere").css({"background" : "red"});*/
-alert("bonjour mon site");
+    $("button").click(function(){
+        $("#colere").fadeIn();
+        $("#divons").fadeIn("slow");
+        $("#outside").fadeIn(3000);
+    });
 });
 </script>
 
@@ -33,7 +37,25 @@ alert("bonjour mon site");
     <input type="text" id="datepicker">
 <div id="colere" style="background-color:#3861EC;
     border:3px stride #CCC111;
-    color:EF2851;
+    color:#EF2ED1;
+    width:342px;
+    height:72px;
+    padding-top:42px;
+    padding-left:162px;
+    font-size:24px;
+    ">Hello world</div>
+    <div id="divons" style="background-color:#38EC61;
+    border:3px stride #CCC111;
+    color:#EEEE51;
+    width:342px;
+    height:72px;
+    padding-top:42px;
+    padding-left:162px;
+    font-size:24px;
+    ">Hello world</div>
+    <div id="outside" style="background-color:#EC3861;
+    border:3px stride #CCC111;
+    color:#EF2851;
     width:342px;
     height:72px;
     padding-top:42px;
