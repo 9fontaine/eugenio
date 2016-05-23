@@ -19,10 +19,10 @@
  <script>
  jQuery(document).ready(function(){
     $("#colere").css({"background-color" : "purple"});
-$("#colere").click(function(){
+$("#ins").click(function(){
     alert("ca marche!");
         $("#colere").fadeIn();
-        $("#divons").fadeIn("slow");
+        $("#divons").slide("slow");
         $("#outside").fadeIn(3000);
     });
 });
@@ -35,7 +35,7 @@ $("#colere").click(function(){
 
 </head>
 <body>
-    <input type="text" id="datepicker"><input id="seurtins" type="button" value="click me" >
+    <input type="text" id="datepicker"><input id="ins" type="button" value="click me" >
 <div id="colere" style="background-color:#3861EC;
     border:3px stride #CCC111;
     color:#EF2ED1;
