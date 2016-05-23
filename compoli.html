@@ -17,21 +17,7 @@
  
 
  </script>
- <script>
- jQuery(document).ready(function(){
-$("ins").click(function(){
-$("#colere").slideUp("slow");    
-    
-})
-$("#colere").click(function(){
-    alert("ca marche!");
-    $("#colere").css({"background-color" : "purple"});
-        /*$("#colere").fadeIn();
-        $("#colere").slideUp(slow);*/
  
-    });
-});
-</script>
 
 
     <!--[if lt IE 9]>
@@ -81,7 +67,18 @@ $("#colere").click(function(){
 }
 </style>
 <script>
-
-
+ jQuery(document).ready(function(){
+$("ins").click(function(){
+$("#colere").slideUp("slow");    
+    
+})
+$("#colere").click(function(){
+    alert("ca marche!");
+    $("#colere").css({"background-color" : "purple"});
+        /*$("#colere").fadeIn();
+        $("#colere").slideUp(slow);*/
+ 
+    });
+});
 </script>
 
