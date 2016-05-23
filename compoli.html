@@ -19,7 +19,8 @@
  <script>
  jQuery(document).ready(function(){
     $("#colere").css({"background-color" : "red"});
-    $("#seurtins").click(function(){
+$("#seurtins").click(function(event){
+    alert("ca marche!");
         $("#colere").fadeIn();
         $("#divons").fadeIn("slow");
         $("#outside").fadeIn(3000);
