@@ -10,7 +10,7 @@
 
 
 <script>
-/*$(document).ready(function(){
+$(document).ready(function(){
 //Lorsque vous cliquez sur un lien de la classe poplight et que le href commence par #
 $('a.poplight[href^=#]').click(function() {
 	alert("a.poplight click ok");
@@ -56,10 +56,8 @@ $('a.close, #fade').live('click', function() { //Au clic sur le bouton ou sur le
 	});
 	return false;
 });
-    });*/
-</script>
-<script>
-$(document).ready(function(){
+
+
 
 $(".oji").click(function(){
 var offset = $( this ).offset();
@@ -80,10 +78,8 @@ function Slider() {
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
 });};
-});
-</script>
-    <script>
-    $(document).ready(function(){
+
+
 /*---------------------------------*/
 $(".btn_close").click(function(){
 $(".popup_block").hide();
@@ -92,9 +88,7 @@ $(".oji a").css({"color": "#EEE"});
 });
 
 });
-</script>
-<script>
-$(document).ready(function(){
+
     $(".oji").mouseover(function(){
 $(".popup_block").hide (); 
 var link_name = "#" + $(this).attr("name");
@@ -135,13 +129,7 @@ $( link_name ).css({"display": "none"});
 /*-----------------------------------*/
 });
 </script>
-Dans le <body>, les divs :
-<div id="javascriptKo" style="display:block: font-weight:bold; color:#ff0000; font-size:15px;">
-    ATTENTION : le Javascript n'est pas activé sur votre navigateur.
-</div>
-<div id="javascriptOk" style="display:none">
-    javascript est activé
-</div>
+
 </head>
 <body>
 <div id="bloghead">
