@@ -77,57 +77,15 @@ $(function() {
 function Slider() {
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
-});};
-
-
-/*---------------------------------*/
-$(".btn_close").click(function(){
-$(".popup_block").hide();
-$(".oji").css({"background-color": "#49498e"});
-$(".oji a").css({"color": "#EEE"});
 });
-
+	
+};
 });
-
-    $(".oji").mouseover(function(){
-$(".popup_block").hide (); 
-var link_name = "#" + $(this).attr("name");
-
-
-$(link_name).show (); 
-$(link_name).mouseenter(function() { }).mouseleave(function() {
-$(link_name).hide (); 
-});
-}, function() {
-//alert("display out");
-$( link_name ).css({"display": "none"});
-    $( link_name ).hide();
-
-//.css({"background-color": "#555;"});
-
-//$(link_name).css('display') == 'show';
-
-//$(this).css({"background-color": "orange"});
-//var link_name = "#" + $(this).attr("name");
-// $("p").toggle();
-// $("#p1").mouseleave(function(){
-//$(".oji a").css({"color": "#221"}); 
-
-   
-    });
-
-    $(liTTTnk_name).mouseout(function(){
-//$(".oji").css({"background-color": "red"});
-
-         $( link_name ).hide(2000);  
-    });
-
-
-//$(".oji").css({"background-color": "#49498e"});
-//$(".oji a").css({"color": "red"});
-
-/*-----------------------------------*/
-});
+</script>
+	
+	
+	
+	
 </script>
 
 </head>
