@@ -1,5 +1,3 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
-<script>
 $(document).ready(function(){
 if($.browser.chrome) {
    alert("1");
@@ -127,5 +125,10 @@ $('a.close, #fade').live('click', function() { //Au clic sur le bouton ou sur le
 /*------------------------------------------------------*/
 
 });
+function breakoutwinmenu(){
+
+$(".popup_block").hide (); 
+}
+
 
 
