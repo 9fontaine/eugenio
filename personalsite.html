@@ -59,12 +59,12 @@ $('a.close, #fade').live('click', function() { //Au clic sur le bouton ou sur le
 
 
 
-$(".oji").click(function(){
+/*$(".oji").click(function(){
 var offset = $( this ).offset();
   event.stopPropagation();
 $( "#result" ).text( this.tagName +
     " coords ( " + offset.left + ", " + offset.top + " )" );
-});
+});*/
 var imgs = ["http://www.easyjet.com/en/holidays/shared/images/guides/poland/krakow/krakow-city.jpg",
             "http://wallpapersgalery.com/wp-content/uploads/2015/06/free-nature-wallpaper-downloads.jpg",
             "http://www.justacote.com/photos_entreprises/barrage-vauban-strasbourg-1357767426.jpg"]
@@ -78,16 +78,9 @@ function Slider() {
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
 });
-	
-};
+
 });
 </script>
-	
-	
-	
-	
-</script>
-
 </head>
 <body>
 <div id="bloghead">
