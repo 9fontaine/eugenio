@@ -2,7 +2,7 @@
 stylesheets from personal site
 
 */
-body{width:1329px;}
+body{width:1332px;}
 .popup_block{
 	display: none; /*--masqué par défaut--*/
 	background: #EEE;
@@ -188,7 +188,7 @@ float:left;
 
 
 #arial{
-width:1329px;
+width:1332px;
 height:44px;
 margin-left:2px;
 padding-left:2px;
@@ -200,7 +200,7 @@ border:6px ridge #2964EF;
 /*fin 2eme*/
 /*ca commence ici*/
 #bloghead{
-width:1329px;
+width:1332px;
 height:154px;
 padding-left:0px;
 margin-left:-1px;
@@ -312,6 +312,7 @@ height:300px;
 }
 
 /*fin quatre*/
+/*
 a:link {
     text-decoration: none;
 }
@@ -327,6 +328,7 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
+*/
 /*cinq debut*/
 img.btn_close {
 	float: right;
