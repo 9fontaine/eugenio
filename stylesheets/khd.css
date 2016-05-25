@@ -144,6 +144,8 @@ padding-left:2px;
 background-color:#26EF37;
 font-family:courier;
 font-size:18px;
+text-align: center;
+font-weight: bold;
 list-style-type:none;
 border:2px inset green;
 }
