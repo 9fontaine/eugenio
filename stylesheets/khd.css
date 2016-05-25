@@ -141,7 +141,7 @@ height:39px;
 background-color:#ccc111;
 margin-left:22px;
 padding-left:2px;
-background-color:#EF2637;
+background-color:#26EF37;
 font-family:courier;
 font-size:24px;
 list-style-type:none;
@@ -161,10 +161,10 @@ li.oji a{
 display: inline-block;
 color:#221;
 width:160px;
-height:59px;
+height:39px;
 padding-left:-22px;
 background-color:#1113EF;
-border:4px inset purple;
+border:1px inset purple;
 }
 .luon{border:3px inset #9E9E33
 	height:39px;
@@ -183,7 +183,7 @@ color:#FEF;
 background-color:#31E;
 height:39px;
 width:140px;
-border:5px outset grey;
+border:1px outset grey;
 font-family:courier;
 font-size:24px;
 float:left;
@@ -198,7 +198,7 @@ padding-left:2px;
 background-color:#FFF428;
 float:left;
 margin-top:2px;
-border:6px ridge #2964EF;
+border:1px ridge #2964EF;
 }
 /*fin 2eme*/
 /*ca commence ici*/
