@@ -289,7 +289,7 @@ padding-top:34px;
 .popup_medium{
 width:600px;
 height:300px;
-	display: none; /*--masqué par défaut--*/
+	/*display: none;*/ /*--masqué par défaut--*/
 	background: #EEE;	
 	float: left;
 	font-size: 1.2em;
