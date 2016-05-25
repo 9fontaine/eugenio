@@ -137,7 +137,7 @@ width:243px;height:145px;background-color:#806273;}
 /*ok ca 2eme suite*/
 li.oji{
 float:left;
-width:160px;
+width:2px;
 height:39px;
 background-color:#ccc111;
 margin-left:122px;
@@ -195,11 +195,11 @@ float:left;
 
 
 #arial{
-width:1332px;
+width:auto;
 height:44px;
 margin-left:2px;
 padding-left:2px;
-background-color:#FFF428;
+background-color:transparent;
 float:left;
 margin-top:2px;
 border:1px ridge #2964EF;
