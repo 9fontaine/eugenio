@@ -26,11 +26,11 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 /*
 img.btn_close {
@@ -165,7 +165,8 @@ display: inline-block;
 color:#221;
 width:160px;
 height:39px;
-padding-left:-22px;
+padding-left:22px;
+padding-top:12px;
 background-color:transparent;
 
 }
