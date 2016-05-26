@@ -16,22 +16,22 @@ body{width:1332px;}
 width:285px;
 height:218px;
 }
-/*
+
 a:link {
-    text-decoration: none;
+    color:black;
 }
 
 a:visited {
-    text-decoration: none;
+    color:grey;
 }
 
 a:hover {
-    text-decoration: none;
+    color:yellow;
 }
 
 a:active {
-    text-decoration: none;
-}*/
+    color:green;
+}
 /*
 img.btn_close {
 	float: right;
