@@ -32,7 +32,7 @@ a:hover {
 a:active {
     color:green;
 }
-/*
+
 img.btn_close {
 	float: right;
 	margin: 125px -5px 10 0;
@@ -43,7 +43,7 @@ width:106px;
 position: absolute;
 
 }
-*/
+
 .huko{
 width:265px;
 height:62px;
@@ -176,13 +176,13 @@ background-color:transparent;
 	margin-top:-1px;
 	float:left;
 }
-/*li.oji a :hover{
+li.oji a :hover{
 color:#2ed6EF;
 background-color:#7ef184;
 height:145px;
 width:324px;
 font-size:2.3px;
-}*/
+}
 li.oji :hover{
 color:#FEd;
 background-color:#8888EF;
