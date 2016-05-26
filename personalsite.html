@@ -32,17 +32,6 @@ function Slider() {
 });
 }
 /*
-
-function myFunction() {
-    document.getElementById("demo").innerHTML = 
-    "Name is " + navigator.appName +
-    "<br>Code name is " + navigator.appCodeName;
-};
-*/
-function breakoutwinmenu(){
-alert("breakoutwinmenu ok");
-$(".popup_block").hide (); 
-};
  
 
 $(".btn_close").click(function(){
@@ -242,7 +231,7 @@ cache
 <p>debat</p>
 </div>
 <script>
-$('a.poplight[href^=#]' ).click(function(){
+
 $("a.poplight[href^=#]").click(function(){
 alert("a.poplight click ok");
 var popID = $(this).attr('rel'); //Trouver la pop-up correspondante
@@ -251,7 +240,9 @@ var popURL = $(this).attr('href'); //Retrouver la largeur dans le href
 	//Récupérer les variables depuis le lien
 var query= popURL.split('?');
 var dim= query[1].split('&amp;');
-var popWidth = dim[0].split('=')[1];});
+var popWidth = dim[0].split('=')[1];
+	
+});
 	//Faire apparaitre la pop-up et ajouter le bouton de fermeture
 
 /*$('#' + popID).fadeIn().css({
@@ -288,8 +279,21 @@ $('#fade, a.close').remove();  //...ils disparaissent ensemble
 });
 return false;
 });
-*/	
 	
+	
+	
+</script>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = 
+    "Name is " + navigator.appName +
+    "<br>Code name is " + navigator.appCodeName;
+};
+*/
+function breakoutwinmenu(){
+alert("breakoutwinmenu ok");
+$(".popup_block").hide (); 
+};	
 	
 </script>
 </body>
