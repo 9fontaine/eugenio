@@ -11,7 +11,6 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
-/*Lorsque vous cliquez sur un lien de la classe poplight et que le href commence par #*/
 $( 'a.poplight[href^=#]' ).click(function(){
 alert("a.poplight click ok");
 var popID = $(this).attr('rel'); //Trouver la pop-up correspondante
