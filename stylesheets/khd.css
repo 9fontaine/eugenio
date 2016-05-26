@@ -193,7 +193,8 @@ font-family:courier;
 font-size:18px;
 float:left;
 }
-
+a{color:blue;}
+a :hover{color:purple;}
 
 #arial{
 width:1140px;
@@ -319,23 +320,7 @@ height:300px;
 }
 
 /*fin quatre*/
-/*
-a:link {
-    text-decoration: none;
-}
 
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    text-decoration: underline;
-}
-*/
 /*cinq debut*/
 img.btn_close {
 	float: right;
