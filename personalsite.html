@@ -98,13 +98,10 @@ var link_name = "#" + $(this).attr("name");
 $(link_name).show (); 
 });
 
-$(link_name).mouseenter(function() { }).mouseleave(function() {
+$(link_name).mouseleave(function() {
 $(link_name).hide (); 
 });
-}, function() {
-$( link_name ).css({"display": "none"});
-    $( link_name ).hide();
-});
+
 /*
 $(function() {
   $('a#trigger').hover(function() {
