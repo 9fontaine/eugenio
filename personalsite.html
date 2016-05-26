@@ -13,7 +13,7 @@
 $(document).ready(function(){
 $("a.poplight[href^=#]").click(function(){
 alert("a.poplight click ok");
-});/*
+});
 var popID = $(this).attr('rel'); //Trouver la pop-up correspondante
 var popURL = $(this).attr('href'); //Retrouver la largeur dans le href
 
@@ -21,11 +21,9 @@ var popURL = $(this).attr('href'); //Retrouver la largeur dans le href
 var query= popURL.split('?');
 var dim= query[1].split('&amp;');
 var popWidth = dim[0].split('=')[1];
-	
-});*/
 	//Faire apparaitre la pop-up et ajouter le bouton de fermeture
 
-/*$('#' + popID).fadeIn().css({
+$('#' + popID).fadeIn().css({
 'width': Number(popWidth)
 })
 .prepend('<a href="#" class="close"><img src="close_pop.png" class="btn_hun" title="Fermer" alt="Fermer" /></a>');
@@ -35,10 +33,6 @@ var popMargTop = ($('#' + popID).height() + 80) / 2;
 var popMargLeft = ($('#' + popID).width() + 80) / 2;
 
 	//On affecte le margin
-$('#' + popID).css({
-'margin-top' : -popMargTop,
-'margin-left' : -popMargLeft
-});//On affecte le margin
 $('#' + popID).css({
 'margin-top' : -popMargTop,
 'margin-left' : -popMargLeft
@@ -58,16 +52,11 @@ $('#fade , .popup_medium').fadeOut(function() {
 $('#fade, a.close').remove();  //...ils disparaissent ensemble
 });
 return false;
-});
-	
-	
+});});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
 
-/*$(".oji").click(function(){
-var offset = $( this ).offset();
-  event.stopPropagation();
-$( "#result" ).text( this.tagName +
-    " coords ( " + offset.left + ", " + offset.top + " )" );
-});*/
 var imgs = ["http://www.easyjet.com/en/holidays/shared/images/guides/poland/krakow/krakow-city.jpg",
             "http://wallpapersgalery.com/wp-content/uploads/2015/06/free-nature-wallpaper-downloads.jpg",
             "http://www.justacote.com/photos_entreprises/barrage-vauban-strasbourg-1357767426.jpg"]
@@ -110,6 +99,12 @@ $(function() {
   }, function() {
     $('div#pop-up').hide();
   };
+});
+$(".oji").click(function(){
+var offset = $( this ).offset();
+  event.stopPropagation();
+$( "#result" ).text( this.tagName +
+    " coords ( " + offset.left + ", " + offset.top + " )" );
 });
 */
 
