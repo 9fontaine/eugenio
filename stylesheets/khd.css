@@ -2,7 +2,7 @@
 stylesheets from personal site
 
 */
-body{width:1332px;}
+body{width:1332px;position:fixed;}
 .popup_block{
 	display: none; /*--masqué par défaut--*/
 	background: #EEE;
