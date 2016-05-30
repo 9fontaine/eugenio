@@ -3,20 +3,6 @@ stylesheets from personal site
 
 */
 body{width:1332px;position:fixed;}
-.popup_block{
-	display: none; /*--masqué par défaut--*/
-	background: #EEE;
-	padding: 20px;
-	float: left;
-	font-size: 1.2em;
-	position: fixed;
-	top: 511px; 
-	z-index: 99999;
-        color:#252;
-width:285px;
-height:218px;
-}
-
 a:link {
     color:black;
 }
