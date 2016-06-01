@@ -36,9 +36,9 @@ style="font-size:1.6em;border:2px inset #EF7402;background-color:#9073EE;color:p
 </div>
 <script>
 $(document).ready(function(){
-$("a.poplight[href^=#]").click(function(){
+$("a.poplight:[href^=#]").click(function(){
 alert("a.poplight click ok");
-});
+}); });
 var popID = $(this).attr('rel'); //Trouver la pop-up correspondante
 var popURL = $(this).attr('href'); //Retrouver la largeur dans le href
 
@@ -77,7 +77,6 @@ $('#fade , .popup_medium').fadeOut(function() {
 $('#fade, a.close').remove();  //...ils disparaissent ensemble
 });
 return false;
-});
 });
 </script>
 <style>
