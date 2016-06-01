@@ -39,12 +39,12 @@ style="font-size:1.6em;border:2px inset #EF7402;background-color:#9073EE;color:p
 
 </div>
 <script type="javascript">
-
+$(document).ready(function(){
 $("a.poplight:[href^=#]").click(function(){
 alert("a.poplight click ok");
 }); 
 	
-
+});
 </script>
 <style>
 .join{ margin-left:72px;}
@@ -77,7 +77,7 @@ opacity:0;
 	z-index: 9999;
 }
 .popup_block{
-	display: none; /*--masqué par défaut--*/
+	/*display: none; /*--masqué par défaut--*/
 	background: #EEE;	
         padding: 20px;
 	float: left;
