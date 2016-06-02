@@ -13,8 +13,6 @@
  <script type="text/javascript" language="javascript">
  $(function() {
  $( "#datepicker" ).datepicker();
- var onpicker = document.getElementById("#datepicker").innerHTML;
-    document.getElementById("demo").innerHTML = onpicker;
  });
  
 
@@ -63,7 +61,8 @@
  jQuery(document).ready(function(){
 $("#ins").click(function(){
 $("#colere").slideUp("slow");    
-    
+var onpicker = document.getElementById("#datepicker").innerHTML;
+document.getElementById("demo").innerHTML = onpicker;   
 })
 $("#colere").click(function(){
     alert("ca marche!");
