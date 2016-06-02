@@ -13,6 +13,8 @@
  <script type="text/javascript" language="javascript">
  $(function() {
  $( "#datepicker" ).datepicker();
+ var onpicker = document.getElementById("btn1").innerHTML;
+    document.getElementById("demo").innerHTML = onpicker;
  });
  
 
@@ -27,6 +29,7 @@
 </head>
 <body>
     <input type="text" id="datepicker"><input id="ins" type="button" value="click me" >
+    <p style="float:right;width:230px;border:2px inset #87871E2;" id="demo">onhu</p>
 <div id="colere" style="background-color:#3861EC;
     color:#EF2ED1;
     ">Hello world</div>
