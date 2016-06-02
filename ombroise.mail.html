@@ -29,48 +29,23 @@
 </head>
 <body>
     <input type="text" id="datepicker"><input id="ins" type="button" value="click me" >
-    <p style="float:right;width:230px;border:2px inset #87871E2;" id="demo">onhu</p>
-<div id="divons" style="background-color:#3861EC;
-    color:#EF2ED1;
-    ">Hello world</div>
-    <div id="divons" style="background-color:#38EC61;
-    color:#EEEE51;
-    ">Hello world</div>
-    <div id="divons" style="background-color:#EC3861;
-    color:#EF2851;
-    ">Hello world</div>
+    <p style="float:right;width:230px;border:2px inset #87871E2;" id="demo">date du jour</p>
+<div id="hun"></div>
     </body>
 <style>
-#contain{
-    border:3px stride #CCC111;
-    width:342px;
-    height:72px;
-    padding-top:42px;
-    padding-left:162px;
-    font-size:24px;
-}
-#divons{
-    background-color:#3861EC;
-    border:3px stride #CCC111;
-    color:EF2851;
-    width:342px;
-    height:72px;
-    padding-top:42px;
-    padding:center;
-}
+#hun{width:123px;height:19px;background-color:purple;}
 </style>
 <script>
  jQuery(document).ready(function(){
 $("#ins").click(function(){
-$("#colere").slideUp("slow");    
+$("#hun").slideUp("slow");    
 })
-$("#colere").click(function(){
+$("#hun").click(function(){
     alert("ca marche!");
-    $("#colere").css({"background-color" : "purple"});
+$("#hun").css({"background-color" : "purple"});
         /*$("#colere").fadeIn();
         $("#colere").slideUp(slow);*/
- 
-    });
+     });
 });
 </script>
 
