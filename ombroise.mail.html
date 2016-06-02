@@ -11,12 +11,7 @@
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
  <script type="text/javascript" language="javascript">
- $(function() {
- $( "#datepicker" ).datepicker();
- });
-  var onpicker = $("#datepicker").val();
- alert(onpicker);
- /*$("#demo")=$("#datepicker").val();*/
+
 
  </script>
  
@@ -28,7 +23,7 @@
 
 </head>
 <body>
-    <input type="text" id="datepicker"><input id="ins" type="button" value="click me" >
+    <input type="text" id="ranger"><input id="ins" type="button" value="click me" >
     <p style="float:right;width:230px;border:2px inset #87871E2;" id="demo">date du jour</p>
 <div id="hun"></div>
     </body>
@@ -43,8 +38,8 @@ $("#hun").slideUp("slow");
 $("#hun").click(function(){
     alert("ca marche!");
 $("#hun").css({"background-color" : "purple"});
-        /*$("#colere").fadeIn();
-        $("#colere").slideUp(slow);*/
+        /*$("#hun").fadeIn();
+        $("#hun").slideUp(slow);*/
      });
 });
 </script>
