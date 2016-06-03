@@ -11,9 +11,7 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
-$(".poplight").click(function(){
-alert("a.poplight click ok");
-});/*
+/*
 var popID = $(this).attr('rel'); //Trouver la pop-up correspondante
 var popURL = $(this).attr('href'); //Retrouver la largeur dans le href
 
@@ -56,8 +54,15 @@ return false;
 </script>
 <script type="text/javascript">
 $(document).ready(function(){
-$(".poplight").click(function(){
+$(".poplight[#?w=500]").click(function(){
 alert("a.poplight click ok");
+var popID = $(this).attr('rel'); //Trouver la pop-up correspondante
+var popURL = $(this).attr('href'); //Retrouver la largeur dans le href
+
+	//Récupérer les variables depuis le lien
+var query= popURL.split('?');
+var dim= query[1].split('&amp;');
+var popWidth = dim[0].split('=')[1];
 });
 var imgs = ["http://www.easyjet.com/en/holidays/shared/images/guides/poland/krakow/krakow-city.jpg",
             "http://wallpapersgalery.com/wp-content/uploads/2015/06/free-nature-wallpaper-downloads.jpg",
