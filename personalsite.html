@@ -12,14 +12,7 @@
 <script type="text/javascript">
 $(document).ready(function(){
 /*
-var popID = $(this).attr('rel'); //Trouver la pop-up correspondante
-var popURL = $(this).attr('href'); //Retrouver la largeur dans le href
 
-	//Récupérer les variables depuis le lien
-var query= popURL.split('?');
-var dim= query[1].split('&amp;');
-var popWidth = dim[0].split('=')[1];
-	//Faire apparaitre la pop-up et ajouter le bouton de fermeture
 
 $('#' + popID).fadeIn().css({
 'width': Number(popWidth)
@@ -63,6 +56,16 @@ var popURL = $(this).attr('href'); //Retrouver la largeur dans le href
 var query= popURL.split('?');
 var dim= query[1].split('&amp;');
 var popWidth = dim[0].split('=')[1];
+$('#' + popID).fadeIn().css({
+'width': Number(popWidth)
+})
+.prepend('<a href="#" class="close"><img src="close_pop.png" class="btn_hun" title="Fermer" alt="Fermer" /></a>');
+
+	//Récupération du margin, qui permettra de centrer la fenêtre - on ajuste de 80px en conformité avec le CSS
+var popMargTop = ($('#' + popID).height() + 80) / 2;
+var popMargLeft = ($('#' + popID).width() + 80) / 2;
+
+	//On affecte le margin
 });
 var imgs = ["http://www.easyjet.com/en/holidays/shared/images/guides/poland/krakow/krakow-city.jpg",
             "http://wallpapersgalery.com/wp-content/uploads/2015/06/free-nature-wallpaper-downloads.jpg",
