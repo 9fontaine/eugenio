@@ -34,7 +34,20 @@ $('#' + popID).css({
 'margin-top' : -popMargTop,
 'margin-left' : -popMargLeft
 });
+	//Effet fade-in du fond opaque
+$('body').append('<div id="fade"></div>'); //Ajout du fond opaque noir
+	//Apparition du fond - .css({'filter' : 'alpha(opacity=80)'}) pour corriger les bogues de IE
+$('#fade').css({'filter' : 'alpha(opacity=80)'}).fadeIn();
 
+
+
+//Fermeture de la pop-up et du fond
+$('a.close, #fade').live('click', function() { //Au clic sur le bouton ou sur le calque...
+$('#fade , .popup_medium').fadeOut(function() {
+$('#fade, a.close').remove();  //...ils disparaissent ensemble
+});
+return false;
+});
 
 
 var imgs = ["http://www.easyjet.com/en/holidays/shared/images/guides/poland/krakow/krakow-city.jpg",
