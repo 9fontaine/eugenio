@@ -56,10 +56,7 @@ var popURL = $(this).attr('href'); //Retrouver la largeur dans le href
 var query= popURL.split('?');
 var dim= query[1].split('&amp;');
 var popWidth = dim[0].split('=')[1];
-$('#' + popID).fadeIn().css({
-'width': Number(popWidth)
-})
-.prepend('<a href="#" class="close"><img src="close_pop.png" class="btn_hun" title="Fermer" alt="Fermer" /></a>');
+
 
 
 
