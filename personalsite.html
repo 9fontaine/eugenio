@@ -40,8 +40,7 @@ $('body').append('<div id="fade"></div>'); //Ajout du fond opaque noir
 	//Apparition du fond - .css({'filter' : 'alpha(opacity=80)'}) pour corriger les bogues de IE
 $('#fade').css({'filter' : 'alpha(opacity=80)'}).fadeIn();
 
-return false;
-});
+
 
 //Fermeture de la pop-up et du fond
 $('a.close, #fade').live('click', function() { //Au clic sur le bouton ou sur le calque...
