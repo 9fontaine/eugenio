@@ -19,17 +19,6 @@ a:active {
     color:green;
 }
 
-img.btn_close {
-	float: right;
-	margin: 125px -5px 10 0;
-width:106px;
-}
-
-*html .popup_block {
-position: absolute;
-
-}
-
 .huko{
 width:265px;
 height:62px;
@@ -233,8 +222,7 @@ padding-top:34px;
 
 /* quatre suits*/
 #kode{
-	display:none;
-	
+display:none;
 }
 .poltin{
 	width:426px;
@@ -328,8 +316,5 @@ width:106px;
 position: absolute;
 
 }
-.poltini{
-	background-color:#EE3388;
-	width:508px;
-}
+
 /*fin cinq*/
