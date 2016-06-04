@@ -237,7 +237,7 @@ padding-top:34px;
 	
 }
 .poltin{
-	width:826px;
+	width:426px;
 	height:0.22em;
 	background-color:#EF3792;
 	border-bottom:3px outset #e54;
@@ -252,7 +252,7 @@ padding-top:34px;
 	margin-top;-42px;
 	
 }
-#EEfade { /*--Masque opaque noir de fond--*/
+#fade { /*--Masque opaque noir de fond--*/
 	display: none; /*--masqué par défaut--*/
 	background: #000;
 	position: fixed; left: 0; top: 0;
