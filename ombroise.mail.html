@@ -105,7 +105,7 @@ Placez ici votre texte
 
 <a href="#?w=500" rel="popup_name" class="poplight">En savoir plus</a>
 
-<div id="popup_name" class="popup_block">
+<div id="popup_name" class="popup_light">
 	<h2>Developpez.com</h2>
 	<p>Soh Tanaka est traduit sur developpez.com.</p>
 </div>
@@ -124,8 +124,8 @@ display:inline;
 li.oji :hover{
 float:left;
 width:180px;
-height:29px;
-background-color:#ef73EF;
+height:27px;
+background-color:#7999EF;
 margin:2px 2px;
 display:inline;
 }
@@ -207,7 +207,7 @@ position: absolute;
 
 </style>
 <script>
- jQuery(document).ready(function(){
+$(document).ready(function(){
 $("#ins").click(function(){
 $("#hun").slideUp("slow");    
 });
@@ -268,8 +268,9 @@ $(":checkBox:last");
 $(":checkBox:last").removeAtt('disabled');
 $("p:first").hassClass("hightlight2");//doit retourner true
 $("p:first").removeClass("hightlight2");
-$("p").click(function(){$(this).toggleClass("hightlight2");
-
+$("p").click(function(){
+$(this).toggleClass("hightlight2");
+});
 });
 </script>
 
