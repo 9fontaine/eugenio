@@ -17,12 +17,11 @@
 $(".oji").mouseover(function(){
 //$(".popup_block").hide (); 
 //var link_name = "#" + $(this).attr("name");
-$(".oji2").show(); 
-});
+$(".oji2").show (); 
 $(".oji").mouseleave(function() {
 $(".oji2").hide (); 
 //$(".popup_block").hide (); 
-
+});
 });
   </script>
 </head>
@@ -34,18 +33,18 @@ spacing-leter:1.7pt;">
 <h3 style="padding-left:70px;"> <br />        Préparez vos potions magiques santé Beauté    voyage idees vous invite à decouvrir :<br/> </h3>
 
 <div style="width:1125px;height:37px;border:2px solid #d6d666;margin-left:2px;margin-top:2px;">
-<ul class="oji">
-<li class="oji"><a href="#hello">hello</a></li>
-<li class="oji"><a href="#world">world</a>
+<ul class="ojikomi">
+<li class="ojikomi"><a href="#hello">hello</a></li>
+<li class="ojikomi"><a href="#world">world</a>
 <ul>
-<li class="oji2">submenu1</li>	
-<li class="oji2">submenu2</li>
+<li class="ojikomi">submenu1</li>	
+<li class="ojikomi">submenu2</li>
 </ul>
 </li>
-<li class="oji"><a href="#helloworld">helloworld</a></li>
-<li class="oji"><a href="#helloworld1">helloworld1</a></li>
-<li class="oji"><a href="#helloworld2">helloworld2</a></li>
-<li class="oji"><a href="#helloworld21">helloworld21</a></li>
+<li class="ojikomi"><a href="#helloworld">helloworld</a></li>
+<li class="ojikomi"><a href="#helloworld1">helloworld1</a></li>
+<li class="ojikomi"><a href="#helloworld2">helloworld2</a></li>
+<li class="ojikomi"><a href="#helloworld21">helloworld21</a></li>
 </ul>
 </div>
 </tt></div>
@@ -121,6 +120,38 @@ Placez ici votre texte
 
     </body>
 <style>
+#ojikomi, #ojikomi ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+	
+}
+#ojikomi{
+	text-align: center;
+	
+}
+#ojikomi li{
+	display: inline-block;
+}
+#ojikomi ul li{
+	display: inherit;
+}
+#ojikomi a{
+	text-decoration: none;
+    display: block;
+	color:#000;
+}
+#ojikomi ul{
+	 position: absolute;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+#ojikomili :hover ul{
+	left: auto;
+}
+
+
 .oji2{
 display:none;	
 }
