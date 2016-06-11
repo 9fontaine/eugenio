@@ -79,6 +79,9 @@ $(".popup_block").hide ();
 var link_name = "#" + $(this).attr("name");
 $(link_name).show (); 
 
+$(".oji").mouseleave(function() {
+$(".popup_block").hide (); 	
+});
 
 $(link_name).mouseleave(function() {
 $(link_name).hide (); 
