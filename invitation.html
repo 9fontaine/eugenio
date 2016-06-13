@@ -63,7 +63,7 @@ $(function() {
 });
 
 function Slider() {
-    $("#imageSlide2").show("fast", function() {
+    $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
 });
 }
@@ -114,7 +114,6 @@ function myFunction() {
 };
 });
 </script>
-
 </head>
 <body>
 <div id="bloghead">
@@ -136,21 +135,19 @@ style="font-size:1.6em;border:2px inset #EF7402;background:#9073EE;color:purple;
 <li class="oji" ><a href="#world">About gin</a></li>
 <li class="oji" ><a href="#world">About gin</a></li>
 <li class="oji" ><a href="#helloworld1">helloworld1</a></li>
-<li class="oji"><a href="#helloworld2">helloworld2</a></li>
+<li class="oji" ><a href="#helloworld2">helloworld2</a></li>
 <li class="oji" ><a href="#helloworld21">helloworld21</a></li>
 </ul>
 
 </div>
-<div style="border:5px inset #526272;float:right;width:329px;">
 
-<p style="float:right;padding-right:15px;">
+<div id="plcenter">
 
-<img id="image_Slide" src="https://1.bp.blogspot.com/-ms1Wo0K5Xu4/ULXTEqbBq2I/AAAAAAAASWQ/x1pbY0BRF1Y/s1600/maximum.png"/> 
-
+<p style="float:right;padding-right:115px;">
+	<p class="image">
+<img id="imageSlide" alt="" src="http://cdn.minneapolis.org/CMS/39/minneapolis_skyline__hero.jpg" width="683px" height="283px"/> 
 </p>
-
-
-
+</p>
 </div>
 <hr />
 <div style="width:62px;height:154px;background-color:white;">
