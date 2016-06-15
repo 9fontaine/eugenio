@@ -23,3 +23,9 @@ Host: api.example.com
 Authorization: Bearer MzJmNDc3M2VjMmQzN
 
 C’est pratique et élégant mais tous les serveurs de ressources ne le permettent pas.
+
+________________________________________
+
+exemple d'urI avec ID OAuth2 App Token 
+
+https://github.com/settings/connections/applications/:client_id
