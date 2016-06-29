@@ -198,13 +198,14 @@ border-bottom:2px solid #7878EF;
 border-right:1px solid #24531E;
 margin-left:0px;
 width:310px;
-height:104px;
+height:154px;
 background-image: url("http://9fontaine.github.io/eugenio/archives001/phographiedartiste.jpg");
+background-repeat: no-repeat;
 }
 .blogcenter{float:left;
-background-image: url("http://9fontaine.github.io/eugenio/archives001/2016-06-18 09.55.07-1.jpg");
 width:619px;
 height:154px;
+background-image: url("http://9fontaine.github.io/eugenio/archives001/2016-06-18 09.55.07-1.jpg");
 }
 .blogright{float:right;
 border-left:2px outset #24531E;
