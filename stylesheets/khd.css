@@ -151,20 +151,20 @@ background-color:transparent;
 	float:left;
 }
 li.oji a :hover{
-color:#2ed6EF;
+color:#23C;
 background-color:#7ef184;
 height:145px;
 width:324px;
 font-size:2.3px;
 }
 li.oji :hover{
-color:#FEd;
+color:#24F;
 background-color:#FFF;
 height:27px;
 width:160px;
 border:1px outset grey;
 font-family:courier;
-font-size:18px;
+font-size:22px;
 float:left;
 }
 a{color:blue;}
