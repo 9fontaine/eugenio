@@ -114,8 +114,7 @@ width:243px;height:145px;background-color:#806273;}
 li.oji{
 float:left;
 width:160px;
-height:39px;
-background-color:#ccc111;
+height:32px;
 margin-left:2px;
 padding-left:2px;
 background-color:#05386B;
@@ -138,7 +137,7 @@ z-index:10;
 }
 li.oji a{
 display: inline-block;
-color:#221;
+color:#CCC221;
 width:160px;
 height:39px;
 padding-left:-24px;
@@ -160,7 +159,7 @@ font-size:2.3px;
 }
 li.oji :hover{
 color:#FEd;
-background-color:#8888EF;
+background-color:#FFF;
 height:27px;
 width:160px;
 border:1px outset grey;
