@@ -203,7 +203,8 @@ background-repeat: no-repeat;
 .blogcenter{float:left;
 width:619px;
 height:154px;
-background-image: url("http://9fontaine.github.io/eugenio/archives001/2016-06-18 09.55.07-1.jpg");
+background-color:05386B;
+/*background-image: url("http://9fontaine.github.io/eugenio/archives001/2016-06-18 09.55.07-1.jpg");*/
 }
 .blogright{float:right;
 border-left:2px outset #24531E;
