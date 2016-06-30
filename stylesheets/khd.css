@@ -81,7 +81,9 @@ float:left;
 margin-top:-2px;
 
 }
-.commentaires{color:#FFF;padding-left:21px;
+.commentaires{color:#FFF;
+padding-left:21px;
+background-color:#05386B;
 }
 .herb{
 border:2px inset #287;
