@@ -71,7 +71,7 @@ $(function() {
 });
 
 function Slider() {
-	alert(txts(imgs.length)%cnt);
+	alert(txts((imgs.length)%cnt);
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
        $("#intox").replaceWith('<span >' + txts[(imgs.length++)%cnt] + '</span>');
