@@ -73,7 +73,7 @@ $(function() {
 function Slider() {
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
-       $("#intox").replaceWith(txts[(imgs) % cntx]));
+       $("#intox").replaceWith(txts[(imgs.length) % cntx]));
        //$("#intox").replaceWith('<span >' + (txts[(txts.length++) % cntx]) + '</span>');
        /*('<span title="avertir">avertissez les liens morts !</span>');*/
  /*   $("#intox").show("fast", function() {
