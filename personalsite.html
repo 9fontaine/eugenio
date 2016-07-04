@@ -71,7 +71,7 @@ $(function() {
 });
 
 function Slider() {
-    $("#imageSlide").show("fast", function() {e++;
+    $("#imageSlide").show("fast", function() {var e=++;
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
        $("#intox").replaceWith('<span >' + (txts[(e)]) + '</span>');
        /*('<span title="avertir">avertissez les liens morts !</span>');*/
