@@ -73,7 +73,7 @@ $(function() {
 function Slider() {
 //	alert((imgs.length)%cnt);
 var inxs = ((imgs.length)%cnt);
-alert(inxs);
+alert(txts[inxs]);
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
        $("#intox").replaceWith('<span >' + txts[inxs] + '</span>');
