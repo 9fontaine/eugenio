@@ -65,7 +65,7 @@ var txts = ["texte",
 	    "deux",
 	    "tres",]
 var cntx = txts.length;
- alert((texts.length++)  % cnt);
+
 $(function() {
         setInterval(Slider, 5000);
 });
@@ -73,7 +73,7 @@ $(function() {
 function Slider() {
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
-
+alert("mkjmkjm");
        $("#intox").replaceWith('<span >' + (txts[(txts.length++) % cnts]) + '</span>');
        /*('<span title="avertir">avertissez les liens morts !</span>');*/
  /*   $("#intox").show("fast", function() {
