@@ -71,9 +71,9 @@ $(function() {
 });
 
 function Slider() {
-    $("#imageSlide").show("fast", function() {
+    $("#imageSlide").show("fast", function() {e++;
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
-       $("#intox").replaceWith('<span >' + (txts[(++) % cntx]) + '</span>');
+       $("#intox").replaceWith('<span >' + (txts[(e)]) + '</span>');
        /*('<span title="avertir">avertissez les liens morts !</span>');*/
  /*   $("#intox").show("fast", function() {
        $(this).attr("innerHTML", txts[(txts.length++) % cntx]).show();*/
