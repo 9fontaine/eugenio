@@ -64,7 +64,7 @@ var txts = ["texte",
 	    "un",
 	    "deux",
 	    "tres",]
-var cntx = txts.length;
+var cntx = imgs.length;
 
 $(function() {
         setInterval(Slider, 5000);
@@ -73,7 +73,7 @@ $(function() {
 function Slider() {
     $("#imageSlide").show("fast", function() {var e=0;e++;
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
-       $("#intox").replaceWith('<span >' + (txts[(e)]) + '</span>');
+       $("#intox").replaceWith('<span >' + (txts[(txts.length++) % cnts]) + '</span>');
        /*('<span title="avertir">avertissez les liens morts !</span>');*/
  /*   $("#intox").show("fast", function() {
        $(this).attr("innerHTML", txts[(txts.length++) % cntx]).show();*/
