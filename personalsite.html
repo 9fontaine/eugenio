@@ -69,8 +69,8 @@ $(function() {
 function Slider() {
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
-    $("#intox").show("fast", function() {
-       $(this).attr("innerTXT", p[(txts.length++) % cntx]).show();
+   /* $("#intox").show("fast", function() {
+       $(this).attr("innerTXT", p[(txts.length++) % cntx]).show();*/
 });
 }
 $(".btn_close").click(function(){
