@@ -73,8 +73,8 @@ $(function() {
 function Slider() {
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
-alert(txts[(imgs.length++) % cnt]);
-       $("#intox").replaceWith('<span >' + (txts[(txts.length++) % cnts]) + '</span>');
+alert(txts[(imgs.length) % cnt]);
+       $("#intox").replaceWith('<span >' + (txts[(txts.length++) % cnt]) + '</span>');
        /*('<span title="avertir">avertissez les liens morts !</span>');*/
  /*   $("#intox").show("fast", function() {
        $(this).attr("innerHTML", txts[(txts.length++) % cntx]).show();*/
