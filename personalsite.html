@@ -69,7 +69,7 @@ $(function() {
 function Slider() {
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
-    $(".commentaires").show("fast", function() {
+    $(".images").show("fast", function() {
        $(this).attr("innerHTML", txts[(txts.length++) % cntx]).show();
 });
 }
