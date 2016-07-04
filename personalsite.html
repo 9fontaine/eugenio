@@ -69,7 +69,8 @@ $(function() {
 function Slider() {
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
-       $("#intox").replaceWith('<span title="avertir">' + (txts[(imgs.length++) % cnt]) + '</span>');
+       $("#intox").replaceWith(txts[(txts.length++) % cntx]);
+       //$("#intox").replaceWith('<span >' + (txts[(txts.length++) % cntx]) + '</span>');
        /*('<span title="avertir">avertissez les liens morts !</span>');*/
  /*   $("#intox").show("fast", function() {
        $(this).attr("innerHTML", txts[(txts.length++) % cntx]).show();*/
