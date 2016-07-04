@@ -68,7 +68,7 @@ $(function() {
 
 function Slider() {
     $("#imageSlide").show("fast", function() {
-       $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
+       $(this).attr("src", imgs[(imgs.length++) % cnt]).show().append('<span title="avertir">avertissez les liens morts !</span>');
  /*   $("#intox").show("fast", function() {
        $(this).attr("innerHTML", txts[(txts.length++) % cntx]).show();*/
 });
