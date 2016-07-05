@@ -72,9 +72,9 @@ $(function() {
 
 function Slider() {
 //	alert((imgs.length)%cnt);
-var inxs = ((imgs.length)%cnt);
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
+       var inxs = ((imgs.length)%cnt);
     var   imgtx = txts[inxs].value;
 $("#intox").replaceWith('<span >' +(imgtx) + '</span>');
        /*('<span title="avertir">avertissez les liens morts !</span>');*/
