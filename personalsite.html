@@ -75,7 +75,8 @@ function Slider() {
     $("#imageSlide").show("fast", function() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
        var inxs = ((imgs.length)%cnt);
-    var   imgtx = txts[inxs].innerTEXT;
+    var   imgtx = txts[inxs];
+    alert(imgtx);
 $("#intox").replaceWith('<span >' +(imgtx) + '</span>');
        /*('<span title="avertir">avertissez les liens morts !</span>');*/
  /*   $("#intox").show("fast", function() {
