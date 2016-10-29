@@ -72,8 +72,13 @@ function Slider() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
        var inxs = ((imgs.length)%cnt);
 //    var   imgtx = txts[inxs];
-	    var textnew = (txts);
-$("#intox").replaceWith(textnew);
+	    //ca ca marche
+//	    var textnew = (txts);
+$.each([ "52", "97" ], function( index, value ) {
+  alert( index + ": " + value );
+	$("#intox").replaceWith(value);
+});
+//$("#intox").replaceWith(textnew);
 });
 } 
 $(".btn_close").click(function(){
