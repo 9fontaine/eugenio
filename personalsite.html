@@ -52,14 +52,14 @@ return false;
 });
 
 
-//*});*/
+});//fermeture du clip
 var imgs = ["http://9fontaine.github.io/eugenio/archives001/lejardinduluxembourg.jpg",
             "http://9fontaine.github.io/eugenio/archives001/batadministratifparis.jpg",
             "http://9fontaine.github.io/eugenio/archives001/bpikleeexpo.jpg",
             "http://9fontaine.github.io/eugenio/archives001/jubile2016.jpg",
             "http://9fontaine.github.io/eugenio/archives001/lejardindusenat.jpg",]
 var cnt = imgs.length;
-var txts = ["Le senat est une institution de la Veme République.
+/*var txts = ["Le senat est une institution de la Veme République.
 ses pouvoirs sont fixés par la constitution.
 il vote la loi,control du gouvernement
 Constitution francaise du 4 octobre 1958 ",
@@ -74,8 +74,8 @@ le 5 avril 2016 inauguration de la canopée",
 	    "festivités, de réjouissances aprés une cérémonie
 regroupant plus de 3000 prétres nationaux a la cathédrale
 Notre-Dame-de-Paris.ce jamboré 2016 pérmis a de trés nombreux fidéles de recevoir la bénédiction de prétres purificateurs.",
-	    "tres",]
-var cntx = txts.length;
+	    "tres"]
+var cntx = txts.length;*/
 
 $(function() {
         setInterval(Slider, 5000);
@@ -87,7 +87,7 @@ function Slider() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
        var inxs = ((imgs.length)%cnt);
 //    var   imgtx = txts[inxs];
-$("#intox").html('<span >' + (txts[inxs]) + '</span>');
+//$("#intox").html('<span >' + (txts[inxs]) + '</span>');
 });
 } 
 $(".btn_close").click(function(){
