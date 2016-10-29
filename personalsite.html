@@ -72,7 +72,7 @@ function Slider() {
        $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
        var inxs = ((imgs.length)%cnt);
 //    var   imgtx = txts[inxs];
-	    var textnew += txts[1];
+	    var textnew += $(txts[1]);
 $("#intox").replaceWith(textnew);
 });
 } 
